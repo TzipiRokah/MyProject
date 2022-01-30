@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2f0c7b605aef4a62aa55ce9f0a6c7b1e" Name="Diagram1">
+        <EntityTypeShape EntityType="LunaParkModel.AccessLevel" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LunaParkModel.Attraction" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LunaParkModel.AttractionStatus" Width="1.5" PointX="8.25" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LunaParkModel.Employee" Width="1.5" PointX="3" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LunaParkModel.FavoriteAttraction" Width="1.5" PointX="5.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LunaParkModel.Message" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LunaParkModel.QueuePerUser" Width="1.5" PointX="8.25" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LunaParkModel.Queues" Width="1.5" PointX="6" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LunaParkModel.Rate" Width="1.5" PointX="8.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LunaParkModel.Status" Width="1.5" PointX="6" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LunaParkModel.Users" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
+        <AssociationConnector Association="LunaParkModel.FK_Message_AccessLevel" ManuallyRouted="false" />
+        <AssociationConnector Association="LunaParkModel.FK_Users_AccessLevel" ManuallyRouted="false" />
+        <AssociationConnector Association="LunaParkModel.FK_AttractionStatus_Attraction" ManuallyRouted="false" />
+        <AssociationConnector Association="LunaParkModel.FK_FavoriteAttraction_Attraction" ManuallyRouted="false" />
+        <AssociationConnector Association="LunaParkModel.FK_Message_Attraction" ManuallyRouted="false" />
+        <AssociationConnector Association="LunaParkModel.FK_Queues_Attraction" ManuallyRouted="false" />
+        <AssociationConnector Association="LunaParkModel.FK_Rate_Attraction" ManuallyRouted="false" />
+        <AssociationConnector Association="LunaParkModel.FK_AttractionStatus_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="LunaParkModel.FK_AttractionStatus_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="LunaParkModel.FK_Message_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="LunaParkModel.FK_FavoriteAttraction_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="LunaParkModel.FK_Message_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="LunaParkModel.FK_QueuePerUser_Queues" ManuallyRouted="false" />
+        <AssociationConnector Association="LunaParkModel.FK_QueuePerUser_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="LunaParkModel.FK_Rate_Users" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="LunaParkModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

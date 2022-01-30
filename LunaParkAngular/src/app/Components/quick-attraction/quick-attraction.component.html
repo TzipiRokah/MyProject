@@ -1,0 +1,22 @@
+<div>
+  <ul>
+    <li *ngFor="let item of AttractionSer.Route">
+      <div>
+        <p>{{item.AttractionId}}</p>
+        <p>{{item.AttractionName}}</p>
+      </div>
+    </li>
+  </ul>
+  
+  <input type="button" value="מסלול לפי דרוג" (click)="GetQuickWayByRate()">
+  <input type="button" value="אני רוצה יותר אטרקציות" (click)="GetQuickWayByMaxAttraction()">
+  <div>
+    <ul>
+      <li *ngFor="let item of AttractionSer.Route">
+          <p>{{item.AttractionId}}</p>
+          <p>{{item.AttractionName}}</p>
+          <p>דקות {{item.TimeWait}} תצטרך להמתין</p>
+      </li>
+    </ul>
+  </div>
+</div>

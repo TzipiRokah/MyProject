@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LunaParkModelStoreContainer" CdmEntityContainer="LunaParkEntities">
+    <EntitySetMapping Name="AccessLevel">
+      <EntityTypeMapping TypeName="LunaParkModel.AccessLevel">
+        <MappingFragment StoreEntitySet="AccessLevel">
+          <ScalarProperty Name="AccessLevelId" ColumnName="AccessLevelId" />
+          <ScalarProperty Name="AccessDetails" ColumnName="AccessDetails" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Attraction">
+      <EntityTypeMapping TypeName="LunaParkModel.Attraction">
+        <MappingFragment StoreEntitySet="Attraction">
+          <ScalarProperty Name="AttractionId" ColumnName="AttractionId" />
+          <ScalarProperty Name="AttractionName" ColumnName="AttractionName" />
+          <ScalarProperty Name="AttractionIfActive" ColumnName="AttractionIfActive" />
+          <ScalarProperty Name="AttractionMaxPeople" ColumnName="AttractionMaxPeople" />
+          <ScalarProperty Name="AttractionNowPeople" ColumnName="AttractionNowPeople" />
+          <ScalarProperty Name="AttractionCountQueue" ColumnName="AttractionCountQueue" />
+          <ScalarProperty Name="AttractionTime" ColumnName="AttractionTime" />
+          <ScalarProperty Name="AttractionTimeOUt" ColumnName="AttractionTimeOUt" />
+          <ScalarProperty Name="AttractionLastAction" ColumnName="AttractionLastAction" />
+          <ScalarProperty Name="AttractionCost" ColumnName="AttractionCost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AttractionStatus">
+      <EntityTypeMapping TypeName="LunaParkModel.AttractionStatus">
+        <MappingFragment StoreEntitySet="AttractionStatus">
+          <ScalarProperty Name="AttractionStatusId" ColumnName="AttractionStatusId" />
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+          <ScalarProperty Name="AttractionId" ColumnName="AttractionId" />
+          <ScalarProperty Name="AttractionStatusDateTime" ColumnName="AttractionStatusDateTime" />
+          <ScalarProperty Name="EmployeeReportId" ColumnName="EmployeeReportId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee">
+      <EntityTypeMapping TypeName="LunaParkModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="EmployeeAccessLevel" ColumnName="EmployeeAccessLevel" />
+          <ScalarProperty Name="EmployeeDetails" ColumnName="EmployeeDetails" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FavoriteAttraction">
+      <EntityTypeMapping TypeName="LunaParkModel.FavoriteAttraction">
+        <MappingFragment StoreEntitySet="FavoriteAttraction">
+          <ScalarProperty Name="FavoriteAttractionId" ColumnName="FavoriteAttractionId" />
+          <ScalarProperty Name="AttractionId" ColumnName="AttractionId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="FavoriteAttractionRate" ColumnName="FavoriteAttractionRate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Message">
+      <EntityTypeMapping TypeName="LunaParkModel.Message">
+        <MappingFragment StoreEntitySet="Message">
+          <ScalarProperty Name="MessageId" ColumnName="MessageId" />
+          <ScalarProperty Name="MessageDateTime" ColumnName="MessageDateTime" />
+          <ScalarProperty Name="MessageDetails" ColumnName="MessageDetails" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="AttractionId" ColumnName="AttractionId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="AccessLevelId" ColumnName="AccessLevelId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QueuePerUser">
+      <EntityTypeMapping TypeName="LunaParkModel.QueuePerUser">
+        <MappingFragment StoreEntitySet="QueuePerUser">
+          <ScalarProperty Name="QueuePerUserId" ColumnName="QueuePerUserId" />
+          <ScalarProperty Name="QueueId" ColumnName="QueueId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CountTickets" ColumnName="CountTickets" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Queues">
+      <EntityTypeMapping TypeName="LunaParkModel.Queues">
+        <MappingFragment StoreEntitySet="Queues">
+          <ScalarProperty Name="QueueId" ColumnName="QueueId" />
+          <ScalarProperty Name="AttractionId" ColumnName="AttractionId" />
+          <ScalarProperty Name="Hour" ColumnName="Hour" />
+          <ScalarProperty Name="MaxPeopleInAttraction" ColumnName="MaxPeopleInAttraction" />
+          <ScalarProperty Name="QueueStatus" ColumnName="QueueStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rate">
+      <EntityTypeMapping TypeName="LunaParkModel.Rate">
+        <MappingFragment StoreEntitySet="Rate">
+          <ScalarProperty Name="RateId" ColumnName="RateId" />
+          <ScalarProperty Name="AttractionId" ColumnName="AttractionId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="RateDateTime" ColumnName="RateDateTime" />
+          <ScalarProperty Name="RateLevel" ColumnName="RateLevel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status">
+      <EntityTypeMapping TypeName="LunaParkModel.Status">
+        <MappingFragment StoreEntitySet="Status">
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+          <ScalarProperty Name="StatusDetails" ColumnName="StatusDetails" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="LunaParkModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserEnterance" ColumnName="UserEnterance" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="UserFirstName" ColumnName="UserFirstName" />
+          <ScalarProperty Name="UserLastName" ColumnName="UserLastName" />
+          <ScalarProperty Name="UserGmail" ColumnName="UserGmail" />
+          <ScalarProperty Name="UserPhone" ColumnName="UserPhone" />
+          <ScalarProperty Name="UsersCount" ColumnName="UsersCount" />
+          <ScalarProperty Name="UserAccessLevel" ColumnName="UserAccessLevel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionName="LunaParkModel.Store.FindQueuesWithNullTickets" FunctionImportName="FindQueuesWithNullTickets">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LunaParkModel.FindQueuesWithNullTickets_Result">
+          <ScalarProperty Name="QueueId" ColumnName="QueueId" />
+          <ScalarProperty Name="AttractionId" ColumnName="AttractionId" />
+          <ScalarProperty Name="Hour" ColumnName="Hour" />
+          <ScalarProperty Name="MaxPeopleInAttraction" ColumnName="MaxPeopleInAttraction" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="LastQueuePerAttractionProc" FunctionName="LunaParkModel.Store.LastQueuePerAttractionProc" />
+    <FunctionImportMapping FunctionImportName="ResetQueues" FunctionName="LunaParkModel.Store.ResetQueues" />
+    <FunctionImportMapping FunctionImportName="UpdateMaxPeopleFromCurrHour" FunctionName="LunaParkModel.Store.UpdateMaxPeopleFromCurrHour">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LunaParkModel.UpdateMaxPeopleFromCurrHour_Result">
+          <ScalarProperty Name="QueueId" ColumnName="QueueId" />
+          <ScalarProperty Name="AttractionId" ColumnName="AttractionId" />
+          <ScalarProperty Name="Hour" ColumnName="Hour" />
+          <ScalarProperty Name="MaxPeopleInAttraction" ColumnName="MaxPeopleInAttraction" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="LunaParkModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="LunaParkModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="LunaParkModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="LunaParkModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="LunaParkModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LunaParkModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="LunaParkModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="LunaParkModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="LunaParkModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="LunaParkModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>

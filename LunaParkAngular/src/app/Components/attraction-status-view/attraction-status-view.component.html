@@ -1,0 +1,25 @@
+<div dir="rtl">
+  <!-- תצוגת ססטוס אטרקציות -->
+<div class="table-responsive text-center">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>מספר מזהה</th>
+        <th>שם האטרקציה</th>
+        <th>סטטוס</th>
+        <th>מועד עדכון</th>
+        <th>עובד מדווח</th>
+      </tr>
+    </thead>
+      <tbody>
+        <tr *ngFor="let item of this.AttractionStatusSer.AttractionStatusList">
+        <td>{{item.AttractionStatusId}}</td>
+        <td>{{item.AttractionId}}</td>
+        <td>{{item.StatusId}}</td>
+        <td>{{item.AttractionStatusDateTime | date:'dd-MM-yyyy hh:mm '}}</td>
+        <td>{{item.EmployeeReportId}}</td>
+        </tr>
+      </tbody>
+  </table>
+</div>
+</div>

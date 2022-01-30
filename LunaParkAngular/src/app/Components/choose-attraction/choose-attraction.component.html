@@ -1,0 +1,17 @@
+<div dir="rtl" class="text-right" style="padding: 5%;">
+  <br>
+  <h3>אטרקציות מדהימות מחכות לך!</h3>
+  <h4 class="font-weight-light"><strong>לפניך מוצגות האטרקציות שרכשת ליום פעילות זה. אנו מאחלים לך הנאה מרובה!!!</strong></h4>
+  <p  class="alert alert-danger">שים לב! לא תתאפשר כניסה שונה מן הכרטיס שרכשת, נא לדייק ולהגיע בזמן.</p>
+  <br>
+  <div class="card-columns" >
+    <div *ngFor="let item of this.QueuesList">
+        <div class="card h-100" data-toggle="modal" data-target="#myModal" (click)="SelectedAtr($event, item)">
+          <img src="assets\PictureToList/{{item.AttractionId}}.jpg" class="card-img-top" alt="lunapark">
+          <div class="card-body">
+            <h5 class="card-title">{{item.AttractionId}}</h5>
+            <p><strong>קנית כרטיס לשעה {{item.Hour | date:'dd-MM-yyyy HH:mm '}}</strong></p>
+          </div>
+      </div>
+    </div>
+</div>

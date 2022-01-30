@@ -1,0 +1,138 @@
+
+<!-- תצוגת אטרקציות - רשימה -->
+<p-dataView #dv [value]="this.AttractionSer.Attractions" >
+  <ng-template let-attraction pTemplate="listItem">
+    <div class="ui-g" style="padding: 2em; border-bottom: 1px solid #d9d9d9">
+      <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <dl class="row">
+              <dd class="col-sm-2">
+            <div class="ui-g-12 ui-md-8 attraction-detail">
+              <div class="ui-g">
+                  <div class="ui-g-2 ui-sm-6">מספר אטרקציה </div>
+                  <div class="ui-g-10 ui-sm-6"><b>{{attraction.AttractionId}}</b></div>
+      
+                  <div class="ui-g-2 ui-sm-6">שם אטרקציה </div>
+                  <div class="ui-g-10 ui-sm-6"><b>{{attraction.AttractionName}}</b></div>
+      
+                  <div class="ui-g-2 ui-sm-6">הפעלה אחרונה </div>
+                  <div class="ui-g-10 ui-sm-6"><b>{{attraction.AttractionLastAction}}</b></div>
+      
+                  <div class="ui-g-2 ui-sm-6">מחיר לבודד </div>
+                  <div class="ui-g-10 ui-sm-6"><b>{{attraction.AttractionCost}}</b></div>
+              </div>
+              <div class="ui-g-12 ui-md-1 search-icon">
+                <div><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-cart-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z"/>
+                  <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z"/>
+                  <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                </svg>
+                <input type="button" value="הוסף לסל" class="btn btn-primary" data-toggle="modal" data-target="#myModal" (click)="SelectedAtr($event, attraction)"> 
+              </div>
+            </div>
+            </div>
+            <div *ngIf="NoUser">
+              <div class="font-weight-bold" style="color: green;">יש להכנס לחשבון </div>
+            </div>
+          </dd>
+          <dd class="col-sm-5"><div class="ui-g-12 ui-md-3" style="text-align:center">
+            <img src="assets\PictureToList/{{attraction.AttractionId}}.jpg" style="width: 100%;">
+          </div> 
+        </dd>
+        <dd class="col-sm-5"><div class="ui-g-12 ui-md-3" style="text-align:center">
+          <img src="assets\PictureToList/{{attraction.AttractionId}}.jpg" style="width: 100%;">
+        </div> 
+      </dd>
+          </dl>
+          </div>
+        </div>
+    </div>
+</ng-template>
+</p-dataView>
+  
+
+
+<!-- The Modal -->
+<div>
+<div class="modal" id="myModal"  *ngIf="selectedAtr">
+  <div class="modal-dialog modal-dialog-scrollable modal-xl">
+   <div class="modal-content">
+  
+     <!-- Modal Header -->
+     <div class="modal-header">
+       <h4 class="modal-title"></h4>
+       <button type="button" class="close" data-dismiss="modal">&times;</button>
+     </div>
+  
+     <!-- Modal body -->
+     <div class="modal-body" dir="rtl">
+        <div class="row">
+          <div class="col-sm-4 alert alert-danger text-center">
+            <div *ngIf="!this.IsView">
+            <i class="far fa-smile-beam fa-spin" style="width: 2em ;"></i>
+            <br>
+            <h3 class="font-weight-light">הוספת לסל את האטרקציה המדהימה הבאה...</h3>
+            <br>
+            <h5 class="font-weight-light">שם הארקציה </h5>
+            <p><input type="text" class="btn btn-danger" value="{{this.AttractionName}}"></p>
+            <h5 class="font-weight-light">מועד </h5>
+            <p><input type="text" class="btn btn-danger" value="{{this.Time | date:'dd-MM-yyyy HH:mm '}}"></p>
+            <h5 class="font-weight-light">מספר כרטיסים </h5>
+            <p><input type="text" class="btn btn-danger" value="{{this.CountTickets}}"></p>
+          </div>
+          <div *ngIf="this.IsView">
+            <br>
+            <h3 class="font-weight-light"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-emoji-frown" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+              <path fill-rule="evenodd" d="M4.285 12.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 10.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 9.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683z"/>
+              <path d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+            </svg>אופס.... </h3>
+            <h3 class="font-weight-light">האטרקציה שכעת בחרת מתנגשת עם אטרקציה אחרת שרכשת... </h3>
+            <br>
+            <h5 class="font-weight-light">שם הארקציה </h5>
+            <p><input type="text" class="btn btn-danger" value="{{this.AttractionName}}"></p>
+            <h5 class="font-weight-light">מועד </h5>
+            <p><input type="text" class="btn btn-danger" value="{{this.Time | date:'dd-MM-yyyy HH:mm '}}"></p>
+            <h5 class="font-weight-light">מספר כרטיסים </h5>
+            <p><input type="text" class="btn btn-danger" value="{{this.CountTickets}}"></p>
+            <br>
+            <h3 class="font-weight-light">אנא בחר את האטרקציה בשעה מתאימה עבורך</h3>
+          </div>
+          </div>
+          <div class="col-sm-8">
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th>שם האטרקציה</th>
+            <th>שעה</th>
+            <th>מקומות פנויים</th>
+            <th></th>
+          </tr>
+        </thead>
+        <thead>
+          <tr  *ngFor="let item of this.QueuesSer.QueuesList">
+            <td>{{selectedAtr.AttractionName}}</td>
+            <td>{{item.Hour | date:'dd-MM-yyyy HH:mm '}}</td>
+            <td>{{item.MaxPeopleInAttraction.toString()}}</td>
+            <td><button type="button" class="btn btn-light" (click)="AddToBasket(item)">
+              <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-cart-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z"/>
+              <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z"/>
+              <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+            </svg></button></td>
+          </tr>
+        </thead>
+      </table>
+      </div>
+     
+     </div>
+     
+     <!-- Modal footer -->
+     <div class="modal-footer">
+       <button type="button" class="btn btn-danger" data-dismiss="modal">סגור</button>
+     </div>
+  
+
+
+   
+  </div>

@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LunaParkModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AccessLevel">
+    <Key>
+      <PropertyRef Name="AccessLevelId" />
+    </Key>
+    <Property Name="AccessLevelId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AccessDetails" Type="nchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Attraction">
+    <Key>
+      <PropertyRef Name="AttractionId" />
+    </Key>
+    <Property Name="AttractionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AttractionName" Type="nchar" MaxLength="30" />
+    <Property Name="AttractionIfActive" Type="int" />
+    <Property Name="AttractionMaxPeople" Type="int" Nullable="false" />
+    <Property Name="AttractionNowPeople" Type="int" />
+    <Property Name="AttractionCountQueue" Type="int" Nullable="false" />
+    <Property Name="AttractionTime" Type="int" Nullable="false" />
+    <Property Name="AttractionTimeOUt" Type="int" Nullable="false" />
+    <Property Name="AttractionLastAction" Type="int" />
+    <Property Name="AttractionCost" Type="int" />
+  </EntityType>
+  <EntityType Name="AttractionStatus">
+    <Key>
+      <PropertyRef Name="AttractionStatusId" />
+    </Key>
+    <Property Name="AttractionStatusId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StatusId" Type="int" />
+    <Property Name="AttractionId" Type="int" />
+    <Property Name="AttractionStatusDateTime" Type="datetime" />
+    <Property Name="EmployeeReportId" Type="int" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeId" />
+    </Key>
+    <Property Name="EmployeeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmployeeAccessLevel" Type="int" />
+    <Property Name="EmployeeDetails" Type="nchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="FavoriteAttraction">
+    <Key>
+      <PropertyRef Name="FavoriteAttractionId" />
+    </Key>
+    <Property Name="FavoriteAttractionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AttractionId" Type="int" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="FavoriteAttractionRate" Type="int" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="MessageId" />
+    </Key>
+    <Property Name="MessageId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MessageDateTime" Type="datetime" />
+    <Property Name="MessageDetails" Type="nchar" MaxLength="300" />
+    <Property Name="EmployeeId" Type="int" />
+    <Property Name="AttractionId" Type="int" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="AccessLevelId" Type="int" />
+  </EntityType>
+  <EntityType Name="QueuePerUser">
+    <Key>
+      <PropertyRef Name="QueuePerUserId" />
+    </Key>
+    <Property Name="QueuePerUserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="QueueId" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="CountTickets" Type="int" />
+  </EntityType>
+  <EntityType Name="Queues">
+    <Key>
+      <PropertyRef Name="QueueId" />
+    </Key>
+    <Property Name="QueueId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AttractionId" Type="int" Nullable="false" />
+    <Property Name="Hour" Type="datetime" Nullable="false" />
+    <Property Name="MaxPeopleInAttraction" Type="int" />
+    <Property Name="QueueStatus" Type="int" />
+  </EntityType>
+  <EntityType Name="Rate">
+    <Key>
+      <PropertyRef Name="RateId" />
+    </Key>
+    <Property Name="RateId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AttractionId" Type="int" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="RateDateTime" Type="datetime" />
+    <Property Name="RateLevel" Type="int" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="StatusId" />
+    </Key>
+    <Property Name="StatusId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StatusDetails" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserEnterance" Type="nchar" MaxLength="20" />
+    <Property Name="UserPassword" Type="nchar" MaxLength="10" />
+    <Property Name="UserFirstName" Type="nchar" MaxLength="10" />
+    <Property Name="UserLastName" Type="nchar" MaxLength="10" />
+    <Property Name="UserGmail" Type="nchar" MaxLength="30" />
+    <Property Name="UserPhone" Type="nchar" MaxLength="10" />
+    <Property Name="UsersCount" Type="int" />
+    <Property Name="UserAccessLevel" Type="int" />
+  </EntityType>
+  <Association Name="FK_AttractionStatus_Attraction">
+    <End Role="Attraction" Type="Self.Attraction" Multiplicity="0..1" />
+    <End Role="AttractionStatus" Type="Self.AttractionStatus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Attraction">
+        <PropertyRef Name="AttractionId" />
+      </Principal>
+      <Dependent Role="AttractionStatus">
+        <PropertyRef Name="AttractionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AttractionStatus_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="AttractionStatus" Type="Self.AttractionStatus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeId" />
+      </Principal>
+      <Dependent Role="AttractionStatus">
+        <PropertyRef Name="EmployeeReportId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AttractionStatus_Status">
+    <End Role="Status" Type="Self.Status" Multiplicity="0..1" />
+    <End Role="AttractionStatus" Type="Self.AttractionStatus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="StatusId" />
+      </Principal>
+      <Dependent Role="AttractionStatus">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FavoriteAttraction_Attraction">
+    <End Role="Attraction" Type="Self.Attraction" Multiplicity="0..1" />
+    <End Role="FavoriteAttraction" Type="Self.FavoriteAttraction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Attraction">
+        <PropertyRef Name="AttractionId" />
+      </Principal>
+      <Dependent Role="FavoriteAttraction">
+        <PropertyRef Name="AttractionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FavoriteAttraction_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="FavoriteAttraction" Type="Self.FavoriteAttraction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="FavoriteAttraction">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Message_AccessLevel">
+    <End Role="AccessLevel" Type="Self.AccessLevel" Multiplicity="0..1" />
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccessLevel">
+        <PropertyRef Name="AccessLevelId" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="AccessLevelId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Message_Attraction">
+    <End Role="Attraction" Type="Self.Attraction" Multiplicity="0..1" />
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Attraction">
+        <PropertyRef Name="AttractionId" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="AttractionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Message_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeId" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Message_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QueuePerUser_Queues">
+    <End Role="Queues" Type="Self.Queues" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="QueuePerUser" Type="Self.QueuePerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Queues">
+        <PropertyRef Name="QueueId" />
+      </Principal>
+      <Dependent Role="QueuePerUser">
+        <PropertyRef Name="QueueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QueuePerUser_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="QueuePerUser" Type="Self.QueuePerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="QueuePerUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Queues_Attraction">
+    <End Role="Attraction" Type="Self.Attraction" Multiplicity="1" />
+    <End Role="Queues" Type="Self.Queues" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Attraction">
+        <PropertyRef Name="AttractionId" />
+      </Principal>
+      <Dependent Role="Queues">
+        <PropertyRef Name="AttractionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rate_Attraction">
+    <End Role="Attraction" Type="Self.Attraction" Multiplicity="0..1" />
+    <End Role="Rate" Type="Self.Rate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Attraction">
+        <PropertyRef Name="AttractionId" />
+      </Principal>
+      <Dependent Role="Rate">
+        <PropertyRef Name="AttractionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rate_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Rate" Type="Self.Rate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Rate">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_AccessLevel">
+    <End Role="AccessLevel" Type="Self.AccessLevel" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccessLevel">
+        <PropertyRef Name="AccessLevelId" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="UserAccessLevel" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="FindQueuesWithNullTickets" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TimeNow" Type="datetime" Mode="In" />
+    <Parameter Name="AtrractionId" Type="int" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="QueueId" Type="int" />
+          <Property Name="AttractionId" Type="int" />
+          <Property Name="Hour" Type="datetime" />
+          <Property Name="MaxPeopleInAttraction" Type="int" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="LastQueuePerAttraction" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="AttractionId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="LastQueuePerAttractionProc" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="AttractionId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ResetQueues" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="UpdateMaxPeopleFromCurrHour" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TimeNow" Type="datetime" Mode="In" />
+    <Parameter Name="AttractionId" Type="int" Mode="In" />
+    <Parameter Name="AttractionMaxPeople" Type="int" Mode="In" />
+    <Parameter Name="MaxPeopleNow" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="LunaParkModelStoreContainer">
+    <EntitySet Name="AccessLevel" EntityType="Self.AccessLevel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Attraction" EntityType="Self.Attraction" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AttractionStatus" EntityType="Self.AttractionStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FavoriteAttraction" EntityType="Self.FavoriteAttraction" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Message" EntityType="Self.Message" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QueuePerUser" EntityType="Self.QueuePerUser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Queues" EntityType="Self.Queues" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rate" EntityType="Self.Rate" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Status" EntityType="Self.Status" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_AttractionStatus_Attraction" Association="Self.FK_AttractionStatus_Attraction">
+      <End Role="Attraction" EntitySet="Attraction" />
+      <End Role="AttractionStatus" EntitySet="AttractionStatus" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AttractionStatus_Employee" Association="Self.FK_AttractionStatus_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="AttractionStatus" EntitySet="AttractionStatus" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AttractionStatus_Status" Association="Self.FK_AttractionStatus_Status">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="AttractionStatus" EntitySet="AttractionStatus" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FavoriteAttraction_Attraction" Association="Self.FK_FavoriteAttraction_Attraction">
+      <End Role="Attraction" EntitySet="Attraction" />
+      <End Role="FavoriteAttraction" EntitySet="FavoriteAttraction" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FavoriteAttraction_Users" Association="Self.FK_FavoriteAttraction_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="FavoriteAttraction" EntitySet="FavoriteAttraction" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Message_AccessLevel" Association="Self.FK_Message_AccessLevel">
+      <End Role="AccessLevel" EntitySet="AccessLevel" />
+      <End Role="Message" EntitySet="Message" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Message_Attraction" Association="Self.FK_Message_Attraction">
+      <End Role="Attraction" EntitySet="Attraction" />
+      <End Role="Message" EntitySet="Message" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Message_Employee" Association="Self.FK_Message_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Message" EntitySet="Message" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Message_Users" Association="Self.FK_Message_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Message" EntitySet="Message" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QueuePerUser_Queues" Association="Self.FK_QueuePerUser_Queues">
+      <End Role="Queues" EntitySet="Queues" />
+      <End Role="QueuePerUser" EntitySet="QueuePerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QueuePerUser_Users" Association="Self.FK_QueuePerUser_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="QueuePerUser" EntitySet="QueuePerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Queues_Attraction" Association="Self.FK_Queues_Attraction">
+      <End Role="Attraction" EntitySet="Attraction" />
+      <End Role="Queues" EntitySet="Queues" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rate_Attraction" Association="Self.FK_Rate_Attraction">
+      <End Role="Attraction" EntitySet="Attraction" />
+      <End Role="Rate" EntitySet="Rate" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rate_Users" Association="Self.FK_Rate_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Rate" EntitySet="Rate" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_AccessLevel" Association="Self.FK_Users_AccessLevel">
+      <End Role="AccessLevel" EntitySet="AccessLevel" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

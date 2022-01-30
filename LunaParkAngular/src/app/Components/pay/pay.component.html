@@ -1,0 +1,35 @@
+<div style="padding: 5%;" dir="rtl">
+<div class="alert alert-danger" role="alert">
+  <div class="container">
+    <dl class="row">
+      <dd class="col-4">
+        <h4>פרטי הזמנה</h4>
+        </dd>
+        <dd class="col-8">
+          <h4>אופן התשלום</h4>
+        </dd>
+        </dl>
+        </div>
+        
+  <hr>
+  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+</div>
+
+<p>NgModel and reactive forms can be used without the 'rate' binding</p>
+
+<div class="form-group">
+  <!-- <ngb-rating [formControl]="ctrl"></ngb-rating> -->
+  <div class="form-text small">
+    <div *ngIf="ctrl.valid" class="text-success">Thanks!</div>
+    <div *ngIf="ctrl.invalid" class="text-danger">Please rate us</div>
+  </div>
+</div>
+
+<hr>
+<pre>Model: <b>{{ ctrl.value }}</b></pre>
+<button class="btn btn-sm btn-outline-{{ ctrl.disabled ? 'danger' : 'success'}} mr-2" (click)="toggle()">
+  {{ ctrl.disabled ? "control disabled" : " control enabled" }}
+</button>
+<button class="btn btn-sm btn-outline-primary mr-2" (click)="ctrl.setValue(null)">Clear</button>
+
+</div>

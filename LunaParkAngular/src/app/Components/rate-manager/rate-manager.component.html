@@ -1,0 +1,90 @@
+<div dir="rtl" class="text-right">
+  <!-- תצוגת דרוגים  -->
+  <div class="list-group">
+    <button type="button" class="list-group-item list-group-item-action"  *ngFor="let item of this.AttractionSer.Attractions" (click)="AllRates(item.AttractionId)">
+      {{item.AttractionName}}
+    </button>
+    <button type="button" class="list-group-item list-group-item-action">
+      <div *ngIf="OnClickView">
+        <table class="table"> 
+          <thead>
+            <tr>
+              <th>1</th>
+              <th>2</th>
+              <th>3</th>
+              <th>4</th>
+              <th>5</th>
+            </tr>
+          </thead>
+            <tbody>
+              <tr>
+              <td *ngFor="let item of this.RateManList">{{item.toString()}}</td>
+              </tr>
+            </tbody>
+        </table>
+
+        <!-- <div class="row">
+          <div class="side">
+            <div>5 star</div>
+          </div>
+          <div class="middle">
+            <div class="bar-container">
+              <div class="bar-5"></div>
+            </div>
+          </div>
+          <div class="side right">
+            <div>150</div>
+          </div>
+          <div class="side">
+            <div>4 star</div>
+          </div>
+          <div class="middle">
+            <div class="bar-container">
+              <div class="bar-4"></div>
+            </div>
+          </div>
+          <div class="side right">
+            <div>63</div>
+          </div>
+          <div class="side">
+            <div>3 star</div>
+          </div>
+          <div class="middle">
+            <div class="bar-container">
+              <div class="bar-3"></div>
+            </div>
+          </div>
+          <div class="side right">
+            <div>15</div>
+          </div>
+          <div class="side">
+            <div>2 star</div>
+          </div>
+          <div class="middle">
+            <div class="bar-container">
+              <div class="bar-2"></div>
+            </div>
+          </div>
+          <div class="side right">
+            <div>6</div>
+          </div>
+          <div class="side">
+            <div>1 star</div>
+          </div>
+          <div class="middle">
+            <div class="bar-container">
+              <div class="bar-1"></div>
+            </div>
+          </div>
+          <div class="side right">
+            <div>20</div>
+          </div>
+        </div>
+        
+      </div>
+    </button>
+  </div> -->
+
+
+  
+</div>

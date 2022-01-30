@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "21c2859a-07d3-4d76-8354-3c67fd8204f6": {
+      "ProjectGuid": "21c2859a-07d3-4d76-8354-3c67fd8204f6",
+      "DisplayName": "LunaParkProject",
+      "ColorIndex": 0
+    },
+    "7ec2dbb5-76e8-4e0c-914d-c399ae04a661": {
+      "ProjectGuid": "7ec2dbb5-76e8-4e0c-914d-c399ae04a661",
+      "DisplayName": "Dal",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

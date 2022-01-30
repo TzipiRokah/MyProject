@@ -1,0 +1,40 @@
+<div style="padding: 5%;">
+  <dl dir="rtl">
+    <dd class="col">
+      <div class="list-group">
+        <button type="button" class="list-group-item list-group-item-action">      
+          <table class="table table-responsive">
+            <thead>
+              <tr>
+                <th>שם אטרקציה</th>
+                <th>שעה</th>
+                <th>כמות</th>
+                <th>מחיר לבודד</th>
+                <th>מחיר כולל</th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of this.AttractionTicketSer.TicketsList; let i=index">
+                <td>{{item.AttractionName}}</td>
+                <td>{{item.Hour | date:'dd-MM-yyyy HH:mm '}}</td>
+                <td><input type="number" value="{{item.Amount}}" #set></td>
+                <td>{{item.AttractionCost}}</td>
+                <td >{{item.CostAll}}</td>
+                <td><input type="button" value="עדכון" class="btn btn-success" (click)="UpdateAmount(i,item.AttractionCost,set.value)"></td> 
+                <td><input type="button" value="מחיקה" class="btn btn-danger" (click)="DeleteItem(i,1)"></td>  
+              </tr>
+            </tbody>
+          </table>
+        </button>
+      </div>
+  </dd>
+  <dd class="col">
+    <div style="padding: 2em;">
+    <p class="font-weight-bold"> סכום סופי {{this.AttractionTicketSer.SumCostTicket}} שקלים</p>
+    <input type="button" class="btn btn-primary" value="בצע רכישה" (click)="BuyTickets()">
+    </div>
+  </dd>
+  </dl>
+</div>

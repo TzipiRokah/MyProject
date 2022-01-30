@@ -1,0 +1,30 @@
+
+<!-- כניסת משתמש קיים -->
+<div style="padding: 5%;">
+  <form class="text-right" dir="rtl" #userForm="ngForm" (ngSubmit)="Connect()">
+    <label for="validationServer01">שם משתמש</label>
+    <input type="text" class="form-control is-invalid" id="validationServer01" name="name"
+      required maxlength="20" [(ngModel)]="name" #trackname="ngModel">
+      <div *ngIf="trackname.errors" class="errorMsg">
+        <div *ngIf="trackname.errors.required && (trackname.dirty || trackname.touch)">זהו ערך חובה</div>
+      </div>
+        <label for="validationServer02">סיסמה</label>
+        <input type="password" class="form-control is-invalid" id="validationServer02"  name="password"
+        required minlength="4" maxlength="8" [(ngModel)]="password" #trackPassword="ngModel">
+      <div *ngIf="trackPassword.errors" class="errorMsg">
+        <div *ngIf="trackPassword.errors.required && (trackPassword.dirty || trackPassword.touch)">זהו ערך חובה</div>
+        <div *ngIf="trackPassword.errors.minlength">עליך להכניס לפחות 4 תווים </div>
+      </div>
+      <br>
+        <p><input type="submit" value="התחבר" class="btn btn-primary" [disabled]="!userForm.form.valid"></p>
+    </form>
+  <div *ngIf="this.UserSer.CheckUser">
+    <p>התחבר בהצלחה</p>
+  </div>
+  <!-- <div>
+    <a routerLink="/Registry">?אין לך עדין חשבון</a>
+    <router-outlet></router-outlet>
+  </div> -->
+</div>
+
+

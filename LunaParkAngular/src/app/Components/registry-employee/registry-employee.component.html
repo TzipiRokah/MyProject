@@ -1,0 +1,96 @@
+<!-- רישום עובדים -->
+<form class="text-right" #entranceForm="ngForm" (ngSubmit)="Connect()">
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label>שם משתמש</label>
+      <input type="text" name="UserEnterance" id="UserEnterance" class="form-control is-invalid" 
+      required maxlength="20" [(ngModel)]="newUser.UserEnterance" #trackuserName="ngModel">
+      <div *ngIf="trackuserName.errors" class="errorMsg">
+        <div *ngIf="trackuserName.errors.required && (trackuserName.dirty || trackuserName.touch)">זהו ערך חובה</div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationServer02">סיסמה</label>
+      <input type="text" class="form-control is-invalid" id="validationServer02"  name="UserPassword"
+      required minlength="4" maxlength="8" [(ngModel)]="newUser.UserPassword" #trackPassword="ngModel">
+      <div *ngIf="trackPassword.errors" class="errorMsg">
+        <div *ngIf="trackPassword.errors.required && (trackPassword.dirty || trackPassword.touch)">זהו ערך חובה</div>
+        <div *ngIf="trackPassword.errors.minlength">עליך להכניס לפחות 4 תווים </div>
+        </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer03">שם פרטי</label>
+      <input type="text" class="form-control is-invalid" id="validationServer03" name="UserFirstName" 
+      required maxlength="10" [(ngModel)]="newUser.UserFirstName" #trackFirstName="ngModel">
+      <div *ngIf="trackFirstName.errors" class="errorMsg">
+        <div *ngIf="trackFirstName.errors.required && (trackFirstName.dirty || trackFirstName.touch)">זהו ערך חובה</div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationServer04">שם משפחה</label>
+      <input type="text" class="form-control is-invalid" id="validationServer04" name="UserLastName" 
+      required maxlength="10" [(ngModel)]="newUser.UserLastName" #trackLastName="ngModel">
+      <div *ngIf="trackLastName.errors" class="errorMsg">
+        <div *ngIf="trackLastName.errors.required && (trackLastName.dirty || trackLastName.touch)">זהו ערך חובה</div>
+        </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-3 mb-3">
+      <label for="validationServer04">סוג עובד </label>
+      <select class="custom-select is-invalid" id="validationServer04" name="UsersCount" required [(ngModel)]="AccessLevel" #trackCount="ngModel">
+        <option>מנהל</option>
+        <option>סדרן</option>
+        <option>מפעיל מתקן</option>
+        <option>לקוח</option>
+      </select>
+      <div class="invalid-feedback">
+        בחר סוג עובד
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer05"> תיאור</label>
+      <input type="text" class="form-control is-valid" id="validationServer05" name="UserPhone" 
+      required maxlength="30" [(ngModel)]="Details" #trackDetails="ngModel">
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer05">מספר טלפון</label>
+      <input type="text" class="form-control is-invalid" id="validationServer05" name="UserPhone" 
+      required minlength="9" pattern="[0-9]+" [(ngModel)]="newUser.UserPhone" #trackPhone="ngModel">
+      <div *ngIf="trackPhone.errors" class="errorMsg">
+        <div *ngIf="trackPhone.errors.required && (trackPhone.dirty || trackPhone.touch)">זהו ערך חובה</div>
+        <div *ngIf="trackPassword.errors.minlength"> הכנס מספר טלפון תקין </div>
+        <div *ngIf="trackPassword.errors.pattern"> הכנס ספרות בלבד </div>
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer07">כתובת מייל</label>
+      <input type="email" class="form-control is-invalid" id="validationServer07" name="UserGmail"
+      required minlength="4" maxlength="30" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" [(ngModel)]="newUser.UserGmail" #trackGmail="ngModel">
+      <div *ngIf="trackGmail.errors" class="errorMsg">
+        <div *ngIf="trackGmail.errors.required && (trackGmail.dirty || trackGmail.touch)">זהו ערך חובה</div>
+        <div *ngIf ="trackGmail.errors.pattern"> הכנס כתובת מייל תקינה </div>
+        <div *ngIf ="trackGmail.errors.minlength">הזן לפחות 4 תווים</div>
+    </div>
+    </div>
+  <div class="form-group">
+    <div class="form-check">
+      <label class="form-check-label" for="invalidCheck3">
+        מסכים לתנאים ולהגבלות  
+      </label>
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+      <div class="invalid-feedback">
+        עליך להסכים לפני הגשה
+      </div>
+    </div>
+  </div>
+  </div>
+  <button class="btn btn-primary" type="submit" [disabled]="!entranceForm.form.valid">התחבר</button>
+</form>
+
+<div>
+  <p *ngIf="check">החשבון נוסף בהצלחה</p>
+</div>
+

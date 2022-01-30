@@ -1,0 +1,227 @@
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csc.exe
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csc.exe.config
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csc.rsp
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csi.exe
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csi.exe.config
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csi.rsp
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.AppContext.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Collections.Immutable.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Console.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Diagnostics.Process.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.IO.Compression.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.IO.FileSystem.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.IO.Pipes.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Reflection.Metadata.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.AccessControl.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Claims.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Principal.Windows.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Threading.Thread.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.ValueTuple.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Xml.XmlDocument.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Xml.XPath.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\vbc.exe
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\vbc.exe.config
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\vbc.rsp
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\VBCSCompiler.exe
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\VBCSCompiler.exe.config
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\LunaParkProject.dll.config
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\LunaParkProject.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\LunaParkProject.pdb
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Newtonsoft.Json.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Net.Http.Formatting.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Web.Http.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Web.Http.WebHost.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Newtonsoft.Json.xml
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Net.Http.Formatting.xml
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Web.Http.xml
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Web.Http.WebHost.xml
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\obj\Debug\LunaParkProject.csprojResolveAssemblyReference.cache
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\obj\Debug\LunaParkProject.csproj.CoreCompileInputs.cache
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\obj\Debug\LunaParkProject.dll
+G:\ShanaB\Students\Group2\AA רינה ברק וציפי רוקח ה100לפת!!!\פרויקט גמר\LunaParkProject\LunaParkProject\obj\Debug\LunaParkProject.pdb
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csc.exe
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csc.exe.config
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csc.rsp
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csi.exe
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csi.exe.config
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csi.rsp
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.AppContext.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Console.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.IO.Pipes.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Claims.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Threading.Thread.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\vbc.exe
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\vbc.exe.config
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\vbc.rsp
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\LunaParkProject.dll.config
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\LunaParkProject.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\LunaParkProject.pdb
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Newtonsoft.Json.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Net.Http.Formatting.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Web.Http.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Web.Http.WebHost.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Newtonsoft.Json.xml
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Net.Http.Formatting.xml
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Web.Http.xml
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Web.Http.WebHost.xml
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\obj\Debug\LunaParkProject.csprojAssemblyReference.cache
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\obj\Debug\LunaParkProject.csproj.CoreCompileInputs.cache
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\obj\Debug\LunaParkProject.csproj.CopyComplete
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\obj\Debug\LunaParkProject.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\obj\Debug\LunaParkProject.pdb
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Bll.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\DTO.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Dal.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\EntityFramework.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Bll.pdb
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\DTO.pdb
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Dal.pdb
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Dal.dll.config
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\EntityFramework.xml
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Gui_.exe
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Gui_.pdb
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Gui_.exe.config
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\EntityFramework.SqlServer.dll
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\EntityFramework.SqlServer.xml
+C:\Users\b\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\DTO.dll.config
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csc.exe
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csc.exe.config
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csc.rsp
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csi.exe
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csi.exe.config
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\csi.rsp
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.AppContext.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Collections.Immutable.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Console.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Diagnostics.Process.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.IO.Compression.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.IO.FileSystem.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.IO.Pipes.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.AccessControl.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Claims.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Security.Principal.Windows.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Threading.Thread.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.ValueTuple.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Xml.XPath.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\vbc.exe
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\vbc.exe.config
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\vbc.rsp
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\VBCSCompiler.exe
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\roslyn\VBCSCompiler.exe.config
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\LunaParkProject.dll.config
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\LunaParkProject.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\LunaParkProject.pdb
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Bll.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Dal.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\DTO.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\EntityFramework.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\EntityFramework.SqlServer.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Gui_.exe
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Newtonsoft.Json.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Net.Http.Formatting.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Web.Http.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Web.Http.WebHost.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Bll.pdb
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Dal.pdb
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Dal.dll.config
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\DTO.pdb
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\DTO.dll.config
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Gui_.pdb
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Gui_.exe.config
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\EntityFramework.xml
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\EntityFramework.SqlServer.xml
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\Newtonsoft.Json.xml
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Net.Http.Formatting.xml
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Web.Http.xml
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\bin\System.Web.Http.WebHost.xml
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\obj\Debug\LunaParkProject.csproj.AssemblyReference.cache
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\obj\Debug\LunaParkProject.csproj.CoreCompileInputs.cache
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\obj\Debug\LunaParkProject.csproj.CopyComplete
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\obj\Debug\LunaParkProject.dll
+D:\users\user1\Documents\הנדסאים\פרויקט גמר\LunaParkProject\LunaParkProject\obj\Debug\LunaParkProject.pdb

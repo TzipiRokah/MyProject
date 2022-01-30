@@ -1,0 +1,16 @@
+<div dir="rtl">
+<div class="list-group">
+  <a *ngFor="let item of this.MessageSer.MessageList" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1"> מזהה הודעה {{item.MessageId}}</h5>
+      <small>{{item.MessageDateTime | date:'dd-MM-yyyy HH:mm '}}</small>
+    </div>
+    <p class="mb-1">{{item.MessageDetails}}</p> 
+    <small><span>מזהה עובד {{item.EmployeeId}}</span> |
+           <span>מזהה אטרקציה {{item.AttractionId}}</span> |
+           <span>מזהה משתמש {{item.UserId}}</span> |
+           <span>רמת הרשאה {{item.AccessLevelId}}</span> 
+    </small>
+  </a>
+</div>
+</div>
